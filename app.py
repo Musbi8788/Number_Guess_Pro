@@ -82,4 +82,5 @@ while game_is_going:
 			# stop the game when the user attempt is less than 1
 			if to_try < 1:
 				print(f'You lose the answer was {answer}.')
+				print("thanks for playing my game")
 				game_is_going = False
